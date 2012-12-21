@@ -2,7 +2,9 @@
                           by SouD
 
 Version: 1.0
+
 Date: 04/11/2012
+
 Author: SouD aka. Linus Sorensen
 
                         DESCRIPTION
@@ -21,11 +23,7 @@ The final result should look something like this:
 Drive:\PATH_TO_WOW_INSTALLATION\Interface\AddOn\CLF
 
                           USAGE
-While ingame, type the following:
-```lua
-/clf number
-```
-Where number is any unsigned number. This command will set the
+While ingame, type the following: "/clf arg", where arg is any unsigned number. This command will set the
 time between updates, a lower number will update more often but
 consume more cpu-power, where a higher number is the reverse.
 This is the only current functionality.
