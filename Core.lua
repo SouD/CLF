@@ -4,18 +4,15 @@
 -- Version: 1.0
 -- -------------------------
 
--- @brief Using setmetatable with __call to cache 
---        CombatLogClearEntries for performance.
+-- Using setmetatable with __call to cache 
+-- CombatLogClearEntries for performance.
 local CLF = setmetatable({
 	version = "1.0",
 	utime = 10.0,
-	run = true,
 	inCombat = false,
 }, {
 	__call = function(self)
-		if ( self.run ) then
-			CombatLogClearEntries()
-		end
+		CombatLogClearEntries()
 	end
 })
 
