@@ -2,7 +2,6 @@
 ## Title: CLF:|cff55aaee SouD|r
 ## Author: SouD
 ## Version: 1.0
-## X-Email: soudayoo@gmail.com
 ## Notes: Fixing your combat log, one cycle at a time!
 ## SavedVariables: CLF_DB
 
